@@ -1,0 +1,39 @@
+{
+  "products" :[
+    {
+      "id"  : 1,
+      "name": "Tom Cat",
+      "desc":  "Cats are often best pet animals",
+      "price": 5400,
+      "image": "https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg"
+    },
+    {
+      "id"  : 2,
+      "name": "Wild Cat",
+      "desc":  "wild cats are not pet",
+      "price": 4500,
+      "image": "https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg"
+    },
+    {
+      "id"  : 3,
+      "name": "British Cat",
+      "desc":  "British Cats are usually in black color",
+      "price": 500,
+      "image": "https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg"
+    },
+    {
+      "id"  : 1,
+      "name": "Maine Coon",
+      "desc":  "Cats are often pet animals",
+      "price": 500,
+      "image": "https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg"
+    },
+    {
+      "id"  : 1,
+      "name": "Tom Cat",
+      "desc":  "Cats are often pet animals",
+      "price": 500,
+      "image": "https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg"
+    }
+  ]
+}
