@@ -13,7 +13,7 @@ Widget build(BuildContext context){
   return SafeArea(
     bottom: false,
     top: false,
-    child: Scaffold(appBar:customappbar(iconcolor:Colors.black,title: "nft",bgclr: Colors.white,statusclr: Colors.white,),
+    child: Scaffold(appBar:CustomAppbar(iconcolor:Colors.black,title: "nft",bgclr: Colors.white,statusclr: Colors.white,),
 
       backgroundColor:CupertinoColors.white,
         body: Column(

@@ -24,7 +24,7 @@ class _FirstScreenState extends State<FirstScreen>{
   Widget build(BuildContext context) {
     return Scaffold(drawer: drawers(),
         backgroundColor: CupertinoColors.white,
-        appBar:customappbar(iconcolor: Colors.white,title:"Species",bgclr: Colors.teal,statusclr: Colors.teal,),
+        appBar:CustomAppbar(iconcolor: Colors.white,title:"Species",bgclr: Colors.teal,statusclr: Colors.teal,),
     body: SingleChildScrollView(
       child: Column(
         children: [

@@ -1,10 +1,8 @@
 import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_notch_bottom_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../page/ListView products.dart';
 import '../page/ProfileModel.dart';
 import '../page/firstScreen.dart';
-import '../page/practieModule.dart';
 import '../page/secondPage.dart';
 
 class notchbottom extends StatefulWidget {
@@ -20,7 +18,7 @@ class _notchbottomState extends State<notchbottom> {
   int maxCount = 4;
   /// widget list
   final List<Widget> bottomBarPages = [
-    FirstScreen(),
+     FirstScreen(),
     HomePage(),
     profile_screen(),
     Products()
@@ -44,8 +42,8 @@ class _notchbottomState extends State<notchbottom> {
         color: Colors.white,
         showLabel: false,
         notchColor: Colors.teal,
-        bottomBarItems: [
-          const BottomBarItem(
+        bottomBarItems: const [
+           BottomBarItem(
             inActiveItem: Icon(
               Icons.home_filled,
               color: Colors.blueGrey,
@@ -55,7 +53,7 @@ class _notchbottomState extends State<notchbottom> {
               color: Colors.white,
             ),
           ),
-          const BottomBarItem(
+           BottomBarItem(
             inActiveItem: Icon(
               Icons.star,
               color: Colors.blueGrey,
@@ -76,7 +74,7 @@ class _notchbottomState extends State<notchbottom> {
               color: Colors.white,
             ),
           ),
-          const BottomBarItem(
+           BottomBarItem(
             inActiveItem: Icon(
               Icons.details,
               color: Colors.blueGrey,
